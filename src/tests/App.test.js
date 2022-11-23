@@ -4,9 +4,9 @@ import { screen } from '@testing-library/react';
 import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
-describe('1. Teste o componente <App.js />', () => {
+describe('Teste o componente <App.js />', () => {
   test(
-    '1.1- Teste se o topo da aplicação contém um conjunto fixo de links de navegação',
+    'Teste se o topo da aplicação contém um conjunto fixo de links de navegação',
     () => {
       renderWithRouter(<App />);
 
@@ -28,7 +28,7 @@ describe('1. Teste o componente <App.js />', () => {
   );
 
   test(
-    '1.2- Teste se a aplicação é redirecionada para a página inicial Home',
+    'Teste se a aplicação é redirecionada para a página inicial Home',
     () => {
       const { history } = renderWithRouter(<App />);
 
@@ -45,7 +45,7 @@ describe('1. Teste o componente <App.js />', () => {
   );
 
   test(
-    '1.3- Teste se a aplicação é redirecionada para a página de About',
+    'Teste se a aplicação é redirecionada para a página de About',
     () => {
       const { history } = renderWithRouter(<App />);
       const linkAbout = screen.getByRole('link', {
@@ -61,7 +61,7 @@ describe('1. Teste o componente <App.js />', () => {
   );
 
   test(
-    '1.4- Teste se a aplicação é redirecionada para a página de Pokémons Favoritados',
+    'Teste se a aplicação é redirecionada para a página de Pokémons Favoritados',
     () => {
       const { history } = renderWithRouter(<App />);
       const linkFavoritePokemon = screen.getByRole('link', {
