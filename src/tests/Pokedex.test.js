@@ -32,9 +32,9 @@ describe('Teste o componente <Pokedex.js />', () => {
   test('Teste se a Pokédex tem os botões de filtro', () => {
     renderWithRouter(<App />);
 
-    const buttonType = screen.getAllByTestId('pokemon-type-button');
+    const buttonFilter = screen.getAllByTestId('pokemon-type-button');
     const typesOfPokemon = ['Electric', 'Fire', 'Bug', 'Poison', 'Psychic', 'Normal', 'Dragon'];
-    buttonType.forEach((pokemon, index) => {
+    buttonFilter.forEach((pokemon, index) => {
       expect(pokemon).toHaveTextContent(typesOfPokemon[index]);
     });
   });
