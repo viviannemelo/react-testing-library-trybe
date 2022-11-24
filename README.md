@@ -16,6 +16,3 @@ Esse é um projeto realizado durante o módulo de Front-End na [Trybe](https://w
 ## Ferramentas utilizadas
 
 * React-Testing-Library
-* JavaScript ES6+
-* React
-* Material UI
