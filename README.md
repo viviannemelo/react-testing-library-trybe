@@ -1,10 +1,21 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# React Testing Library
+
+Esse é um projeto realizado durante o módulo de Front-End na [Trybe](https://www.betrybe.com/), onde desenvolvi testes utilizando Testing Library para testar componentes de uma aplicação React.
+
+![Illustration Image](./illustration-image.jpg)
+
+## Skills desenvolvidas
+
+* Utilizar os seletores (queries) da React-Testing-Library em testes automatizados;
+* Testes Unitários;
+* Simular eventos com a React-Testing-Library em testes automatizados;
+* Testar fluxos lógicos assíncronos;
+* Escrever testes que permitam a refatoração da estrutura dos componentes da aplicação sem necessidade de serem alterados;
+* Testar inputs.
+
+## Ferramentas utilizadas
+
+* React-Testing-Library
+* JavaScript ES6+
+* React
+* Material UI
